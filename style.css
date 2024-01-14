@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(26, 26, 41);
+}
+
+.card{
+    background-color: rgb(58, 58, 78);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 12px;
+    position: relative;
+    text-align: center;
+}
+
+.title{
+    color: rgb(154, 249, 154);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.btn{
+    background-color: rgb(154, 249, 154);
+    color: #fff;
+    bottom: -10px;
+    left: 50%;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+p{
+    color: #fff;
+    margin-bottom: 20px;
+}
